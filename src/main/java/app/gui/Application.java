@@ -1,28 +1,12 @@
 package app.gui;
 
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.WindowConstants;
-
 import api.MongoGradeDataBase;
 import app.Config;
 import entity.Grade;
-import usecase.FormTeamUseCase;
-import usecase.GetAverageGradeUseCase;
-import usecase.GetGradeUseCase;
-import usecase.JoinTeamUseCase;
-import usecase.LeaveTeamUseCase;
-import usecase.LogGradeUseCase;
+import usecase.*;
+
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * GUI class to run the GUI for the Grade App.
